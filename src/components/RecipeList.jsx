@@ -16,10 +16,10 @@ const RecipeList = ({ recipes }) => {
 
 const styles = {
   container: {
-    display: "flex",
-    flexWrap: "wrap",
-    justifyContent: "center",
+    display: "grid",
+    gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
     gap: "20px",
+    padding: "20px",
     marginTop: "20px",
   },
   noData: {
