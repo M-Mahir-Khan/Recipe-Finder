@@ -3,15 +3,15 @@ const RecipeCard = ({ recipe }) => {
     <div style={styles.card}>
       <img src={recipe.image} alt={recipe.title} style={styles.image} />
       <h3 style={styles.title}>{recipe.title}</h3>
-      <p style={styles.details}>Ready in {recipe.readyInMinutes} mins</p>
-      <a
+      <p style={styles.details}>Ready in {recipe.readyInMinutes} 20 mins</p>
+      {/* <a
         href={`https://spoonacular.com/recipes/${recipe.id}`}
         target="_blank"
         rel="noopener noreferrer"
         style={styles.link}
       >
         View Recipe
-      </a>
+      </a> */}
     </div>
   );
 };
