@@ -3,6 +3,7 @@ import axios from "axios";
 import Header from "./components/Header";
 import SearchBar from "./components/SearchBar";
 import RecipeList from "./components/RecipeList";
+import "./App.css"
 
 const App = () => {
   const [query, setQuery] = useState(""); 
